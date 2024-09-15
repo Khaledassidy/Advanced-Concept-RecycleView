@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/recyclewithcardview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycleview with card view"
+        android:textSize="30sp">
+
+    </Button>
+
+
+    <Button
+        android:id="@+id/recyclewithsingleitemselected"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycleview with Single item selected"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/recyclewithmultipleviewtype"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycleview with multiple view type"
+        android:textSize="30sp">
+
+    </Button>
+
+    <Button
+        android:id="@+id/recyclewithmultipleselectionitem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Recycleview with multiple selection item"
+        android:textSize="30sp">
+
+    </Button>
+
+
+
+
+
+</LinearLayout>
